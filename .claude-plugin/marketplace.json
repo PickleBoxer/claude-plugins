@@ -5,7 +5,7 @@
     "url": "https://github.com/PickleBoxer"
   },
   "metadata": {
-    "description": "Claude Code mods by PickleBoxer: rate limits and spend, git status, and pasted image previews above the prompt"
+    "description": "Claude Code mods and skills by PickleBoxer: rate limits and spend, git status, pasted image previews, and poteto's pstack skills"
   },
   "plugins": [
     {
@@ -53,6 +53,22 @@
         "mod",
         "images",
         "preview"
+      ]
+    },
+    {
+      "name": "pstack",
+      "source": {
+        "source": "github",
+        "repo": "PickleBoxer/pstack"
+      },
+      "description": "poteto's rigorous engineering skills (poteto-mode, how/why, architect, verification), ported from Cursor, with a /poteto mode toggle and a /pstack skills pane",
+      "homepage": "https://github.com/PickleBoxer/pstack",
+      "category": "development",
+      "keywords": [
+        "skills",
+        "workflow",
+        "subagents",
+        "verification"
       ]
     }
   ]

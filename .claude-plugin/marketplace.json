@@ -1,0 +1,59 @@
+{
+  "name": "pickleboxer",
+  "owner": {
+    "name": "PickleBoxer",
+    "url": "https://github.com/PickleBoxer"
+  },
+  "metadata": {
+    "description": "Claude Code mods by PickleBoxer: rate limits and spend, git status, and pasted image previews above the prompt"
+  },
+  "plugins": [
+    {
+      "name": "burn",
+      "source": {
+        "source": "github",
+        "repo": "PickleBoxer/burn"
+      },
+      "description": "Rate limits, usage credits and spend above the prompt, with a /burn pane for the last 7 days",
+      "homepage": "https://github.com/PickleBoxer/burn",
+      "category": "productivity",
+      "keywords": [
+        "mod",
+        "usage",
+        "rate-limits",
+        "cost"
+      ]
+    },
+    {
+      "name": "drift",
+      "source": {
+        "source": "github",
+        "repo": "PickleBoxer/drift"
+      },
+      "description": "Folder, branch, ahead/behind and uncommitted changes above the prompt, with a /drift pane for changes and branches",
+      "homepage": "https://github.com/PickleBoxer/drift",
+      "category": "productivity",
+      "keywords": [
+        "mod",
+        "git",
+        "status",
+        "diff"
+      ]
+    },
+    {
+      "name": "peek",
+      "source": {
+        "source": "github",
+        "repo": "PickleBoxer/peek"
+      },
+      "description": "Thumbnails above the prompt for every image you paste",
+      "homepage": "https://github.com/PickleBoxer/peek",
+      "category": "productivity",
+      "keywords": [
+        "mod",
+        "images",
+        "preview"
+      ]
+    }
+  ]
+}

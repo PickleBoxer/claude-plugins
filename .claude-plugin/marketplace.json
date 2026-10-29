@@ -5,7 +5,7 @@
     "url": "https://github.com/PickleBoxer"
   },
   "metadata": {
-    "description": "Claude Code mods and skills by PickleBoxer: rate limits and spend, git status, pasted image previews, and poteto's pstack skills"
+    "description": "Claude Code mods and skills by PickleBoxer: rate limits and spend, git status, pasted image previews, poteto's pstack skills and the pickle workflow skills"
   },
   "plugins": [
     {
@@ -69,6 +69,22 @@
         "workflow",
         "subagents",
         "verification"
+      ]
+    },
+    {
+      "name": "pickle",
+      "source": {
+        "source": "github",
+        "repo": "PickleBoxer/pickle"
+      },
+      "description": "Engineering workflow skills built on agent-skills, picked per task by /pickle:pickle-mode, with a welcome band and a /pickle-guide pane",
+      "homepage": "https://github.com/PickleBoxer/pickle",
+      "category": "development",
+      "keywords": [
+        "skills",
+        "workflow",
+        "mod",
+        "agent-skills"
       ]
     }
   ]

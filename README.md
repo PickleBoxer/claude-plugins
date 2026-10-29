@@ -6,7 +6,7 @@ Small mods that put the things you keep checking right above the Claude Code pro
 
 [![Validate](https://github.com/PickleBoxer/claude-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/PickleBoxer/claude-plugins/actions/workflows/validate.yml)
 ![Mods](https://img.shields.io/badge/mods-3-d97757)
-![Skills](https://img.shields.io/badge/skills-1-d97757)
+![Skills](https://img.shields.io/badge/skills-2-d97757)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-v2.1.287%2B-d97757)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
@@ -27,6 +27,7 @@ Then install any plugin from it:
 /plugin install drift@pickleboxer
 /plugin install peek@pickleboxer
 /plugin install pstack@pickleboxer
+/plugin install pickle@pickleboxer
 ```
 
 Or browse them all with `/plugin`.
@@ -75,13 +76,20 @@ Pasted images as thumbnails above the prompt. Needs a terminal that draws images
 
 | Plugin | What it adds | Latest |
 | --- | --- | --- |
-| ♛ [**pstack**](https://github.com/PickleBoxer/pstack) | poteto's engineering skills (poteto-mode, how/why, architect, arena, verification and the principles), with a `/poteto` mode toggle and a `/pstack` skills pane | ![pstack](https://img.shields.io/github/v/tag/PickleBoxer/pstack?label=&color=d97757) |
+| ♛ [**pstack**](https://github.com/PickleBoxer/pstack) | poteto's engineering skills (poteto-mode, how/why, architect, arena, verification and the principles), with a `/poteto` mode toggle and a `/pstack` skills pane | ![pstack](https://img.shields.io/github/v/tag/PickleBoxer/pstack?label=&color=d97757&sort=date) |
+| 🥒 [**pickle**](https://github.com/PickleBoxer/pickle) | Engineering workflow skills from Addy Osmani's agent-skills, picked per task by `/pickle:pickle-mode`, with a welcome band and a `/pickle-guide` pane | ![pickle](https://img.shields.io/github/v/tag/PickleBoxer/pickle?label=&color=d97757&sort=date) |
 
 ### ♛ pstack
 
 [pstack](https://github.com/cursor/plugins/tree/main/pstack) by Lauren Tan, ported from Cursor and kept in sync with upstream. Every skill is typed-only, so it costs no context until you run one (`/pstack:poteto-mode`, `/pstack:how`, ...). A small mod adapts Cursor's tools and models to Claude Code.
 
 [Read more](https://github.com/PickleBoxer/pstack#readme)
+
+### 🥒 pickle
+
+Engineering workflow skills built on Addy Osmani's [agent-skills](https://github.com/addyosmani/agent-skills), plus skills from pstack and Matt Pocock's skills. Start a task with `/pickle:pickle-mode <task>` and it loads the skills that fit, from spec and planning to review and shipping. A mod adds a welcome band above the prompt, a tip on the first task, a `/pickle:review` suggestion after edits and a `/pickle-guide` pane.
+
+[Read more](https://github.com/PickleBoxer/pickle#readme)
 
 ## Updating
 
